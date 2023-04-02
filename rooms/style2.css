@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a {
+    
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+.form1 {
+    margin: 0 auto;
+    width: 50%; /* adjust this value to your liking */
+    display: flex;
+    align-items: center;
+    border: #000;
+}
+
+.form1 label {
+    margin-right: 10px;
+}
+
+.form1 input[type="text"] {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form1 button[type="submit"],
+.form1 .btn {
+    width: 70px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form1 .btn {
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+
+
+/* Style for the form */
+form {
+    width: 80%;
+    margin: auto;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="float"] {
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+button[type="submit"] {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+/* Style for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+    text-align: center;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #92929294;
+}
+
+.table a {
+    padding: 4px 8px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.table a:hover {
+    opacity: 0.8;
+}
